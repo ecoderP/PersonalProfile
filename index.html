@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/home.css">
+    
+</head>
+<body>
+    
+    <header>
+        <nav class="nav">
+            <a href="#" class="header_logo">
+                <h2>Paul</h2>
+            </a>
+            <a href="#" class="header_menu" id="mobile_toggle">
+                <span class="breadcrumb line_1"></span>
+                <span class="breadcrumb line_2"></span>
+                <span class="breadcrumb line_3"></span>
+            </a>
+            <!-- Navigation Section comes here -->
+            <div class="nav-bar">
+                <ul class="hide-for-mobile nav-bar-group">
+                    <li class="nav-bar-item"><a href="#about">About</a></li>
+                    <li class="nav-bar-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-bar-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-bar-item"><a href="#contact-form">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Toggled Mobile Menu -->
+        <div class="mobile_menu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact-form">Contact</a>
+        </div>
+        
+        
+    </header>
+
+    <main>
+        <!-- Hero Section-->
+        <div class="hero section width_100 flex">
+            <div class="hero-left-box top-box width_100">
+                <h1>Hi, <br>
+                    I'm Paul Onyebuchi, <br>
+                    <span class="job-role">Frontend Developer | Digital Marketer</span> <br>
+                </h1>
+                <p class="job-skills">css | javascript | html & email</p>
+                <a href="#contact-form" class="btn">Contact Me</a>
+            </div>
+            <div class="my_photo top-box width_100">
+                <img class="width_100" src="img/me.jpg" alt="Paul Onyebuchi">
+            </div>
+        </div>
+
+        <!-- About  me -->
+        <div class="section width_100" id="about">
+            <h2 class="page-heading">About Me</h2>
+            <div class="about-section-boxes width_100 flex">
+                <div class="right-box width_100">
+                    <img class="height_250" src="img/bkg.png" alt="Paul Onyebuchi">
+                </div>
+                <div class="left-box width_100">
+                    <p>Webmaster @  <a href="https://techhub-ops.com">Tech Hub Operations Ltd</a></p>
+                    <p>Webmaster/ ICT Instructor @ Kismet Pillars School</p>
+                    <p>Former Co-founder @ Max Projects Brand & Visual Communications</p>           
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="section width_100" id="skills">
+            <h2 class="page-heading">Skills</h2>
+            <div class="skills-section-boxes width_100 flex">
+                <div class="right-box width_100">
+                    <p><span>Experience Working With:</span> HTML, CSS3, Javascript, Bootstrap, WordPress
+                    </p>
+                    <p><span>Exposed To:</span> Google Analytics, SEO Principles, Responsive Design & Mobile First Approach</p>
+                    <p><span>Design Tools:</span> Figma, Adobe Photoshop</p>
+                    <p><span>Familiar With:</span> React JS, SASS</p>
+                    
+                </div>
+                <div class="left-box width_100">
+                   <img class="height_250" src="img/bkg.png" alt="Paul Onyebuchi">
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="section width_100" id="portfolio">
+            <h2 class="page-heading">Portfolio</h2>
+            <p>Click on a tab to see the projects under it.</p>
+                <button id="landing_pages" class="landing-pages desktop width_100"> Landing Pages</button>
+                    <div id="toggle_landing_pages" class="show_portfolio width_100">
+                        <div class="project_image_box">
+                           <a href="#" target="_blank">
+                               <img src="img/Paul_personal_profile.png" alt="">
+                                <p class="title">Profile Page</p>
+                            </a>
+                        </div>
+                        <div class="project_image_box">
+                            <a href="#">
+                                <img src="img/stats_preview.png" alt="">
+                                <p class="title">Stats Preview card</p>
+                            </a>
+                        </div>
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                    </div>
+
+                    <button id="j_scripts" class="react-projects desktop width_100"> Javascript </button>                
+                    <div id="toggle_j_scripts" class="show_portfolio width_100">
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                    </div>
+
+                <button id="react" class="react-projects desktop width_100"> React </button>           
+                    <div id="toggle_react" class="show_portfolio width_100">
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="project_image_box">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                    </div>
+                
+                <button id="html_email" class="html_email_projects desktop width_100"> HTML Email</button>            
+                <div id="toggle_html_email" class="show_portfolio width_100">
+                    <div class="project_image_box">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="project_image_box">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="project_image_box">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="project_image_box">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>    
+            </div>
+
+
+        <!-- Contact Me -->
+        <div class="section width_100" id="contact">
+            <h2 class="page-heading">Contact Me</h2>
+            <p>I'm open to exciting new opprotunities. Leave a message and I'll get back as soon as possible</p>
+            <form action="" id="contact-form">
+                <label for="name">
+                    <input type="text" name="Name" id="name" placeholder="Enter Name" required>
+                </label><br/>
+                <label for="email">
+                    <input type="email" name="Email" id="email" placeholder="Enter Email" required>
+                </label><br/>
+                <label for="subject">
+                    <input type="text" name="subject" id="subject" placeholder="Enter Subject">
+                </label><br/>
+                <label for="name">
+                    <input type="textarea" name="message" id="message" placeholder="Enter Your Message" required>
+                </label><br/>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="footer-text" id="new">copyright &copy; 2021. All rights reserved.</p>
+    </footer>
+
+    <script src="js/header.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+/* Flex boxes Styles */
+.width_100 {
+    width: 100%;
+}
+
+/*Hero section styles*/
+
+.hero-left-box {
+    line-height: 1.7;
+    /*max-width: */
+}
+.hero-left-box h1 {
+    font-size: 2rem;
+}
+.job-role {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding-top: 1rem;
+}
+/*Contact button*/
+.top-box .btn {
+    font-size: 1em;
+    background-color: lightseagreen;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/* About Section Styles */
+.height_250 {
+    height: 250px;
+    width: 100%;
+    border-radius: 8%;
+    padding: 1rem;
+    padding-left: 0;
+    display: none;
+}
+
+/* Skills Section Styles */
+.right-box p span {
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Portfolio Section Styles */
+.desktop:focus {
+    background-color: darkgray;
+}
+.portfolio-section-boxes {
+    justify-content: space-around;
+    background-color: lightseagreen;
+}
+.portfolio-section-boxes h3 {
+    display: auto;
+    text-align: center;
+    color: white;
+}
+/*Projects Section Dropdown*/
+.show_portfolio {
+    display: none;
+}
+.project_image_box {
+    width: 98%;
+    padding-top: 0.2rem
+}
+.project_image_box img {
+    width:97%;
+    border-radius: 3%;
+}
+.project_image_box .title {
+    text-align: center;
+    font-size: 1.3rem;
+    opacity: 0.7;
+}
+
+/* Hide portfolio*/
+.open_project {
+    display: grid;
+    grid-column: 2/2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+}
+/* Portfolio toggle buttons*/
+.section button {
+    padding: 2rem;
+    background-color: teal;
+    font-size: 1.5rem;
+    color: white;
+    border: 1px solid darkgray;
+    border-radius: 3%;
+}
+
+/* Contact Section Styles */
+#contact {
+    text-align: center;
+}
+
+#contact-form {
+    width: 100%;
+    margin: auto;
+    font-size: 1rem;
+    border: 1px solid darkgray;
+    border-radius: 3%;
+}
+#contact-form input {
+    width: 70%;
+    height: 3rem;
+    margin-top: 2rem;
+    border: 1px solid darkgray;
+    border-radius: 8%;
+}
+#submit {
+    background-color: lightseagreen;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+/* Media queries*/
+
+@media screen and (min-width: 641px) {
+    .flex {
+        display: flex;
+        flex-shrink: 1;
+        width: 95%;
+        max-width: 1100px;
+        margin: auto;
+    }
+    /*Contact button*/
+.top-box .btn {
+    font-size: 2em;
+    padding: 15px 20px;
+}
+.btn:hover {
+    background-color: darkgray;
+    color: white;
+}
+    .section {
+        width: 95%;
+        max-width: 1100px;
+        margin: 8rem auto; 
+    }
+    
+
+    
+    .hero-left-box h1 {
+        font-size: 3rem;
+    }
+    
+    .my_photo img {
+        border: 1px solid teal;
+        border-radius: 50%;
+    }
+    .height_250 {
+        display: block;
+    }
+    .portfolio-section-boxes h3 {
+        font-size: 1.1rem;        
+    }
+    .desktop {
+        display: inline;
+        width: 24%;
+        cursor: pointer;
+    }
+    .desktop:hover {
+        background-color: darkgray;
+    }
+    /* Portfolio toggle buttons*/
+    .section button {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+    /* Desktop image columns*/
+    .open_project {
+        grid-column: 3/2;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+#contact-form {
+    width: 60%;
+}
+}
