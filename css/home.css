@@ -4,7 +4,9 @@
 }
 
 /*Hero section styles*/
-
+.hero {
+    padding-top: 1rem;
+}
 .hero-left-box {
     line-height: 1.7;
     /*max-width: */
@@ -108,13 +110,25 @@
     width: 70%;
     height: 3rem;
     margin-top: 2rem;
+    color: darkgray;
+    border: 1px solid darkgray;
+    border-radius: 8%;
+}
+#contact-form input::placeholder {
+    color: darkgray;
+}
+#contact-form textarea  {
+    width: 70%;
+    margin-top: 2rem;
+    color: darkgray;
     border: 1px solid darkgray;
     border-radius: 8%;
 }
 #submit {
     background-color: #dc3545;
-    color: #ffffff;
+    color: #ffffff !important;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 /* Media queries*/

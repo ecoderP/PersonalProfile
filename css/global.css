@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    height: 100%;
 }
 *, *::before, *::after {
     box-sizing: inherit;
@@ -167,12 +168,12 @@ footer {
 footer a {
     display: inline-block;
     font-size: 2.5rem;
-    margin: 0.5rem;
-    padding: 0.7rem;
+    margin: 0.2rem;
+    padding: 0.7rem 0.7rem 0 0.7rem;
 }
 .footer-text {
     font-size: 0.8rem;
-    padding: 0.8rem;
+    padding: 0.5rem;
     color: white;
     
 }
