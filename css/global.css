@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 *, *::before, *::after {
     box-sizing: inherit;
@@ -13,6 +14,10 @@ body {
     line-height: 1.5;
     width: 100%;
     height: 100%;
+}
+header {
+    width: 100%;
+    position: fixed;
 }
 main {
     padding: 1rem;
@@ -52,9 +57,9 @@ li  {
     list-style-type: none;
 }
 
-
 /* // Navigation styles*/
 nav {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     padding: 0.6rem 0.6rem 0.6rem;
@@ -111,10 +116,6 @@ nav a h2 {
     border-bottom: 2px solid darkgrey;
     border-bottom-right-radius: 30%;
 }
-/*
-.nav-bar-group li:last-child {
-    margin-right: 2.8rem;
-}*/
 
 /* Mobile Menu */
 .mobile_menu {
@@ -163,6 +164,12 @@ footer {
     margin-bottom: 0;
     text-align: center;
 }
+footer a {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    padding: 0.7rem;
+}
 .footer-text {
     font-size: 0.8rem;
     padding: 0.8rem;
@@ -181,10 +188,13 @@ footer {
     .breadcrumb {
         display: none;
     }
+    header {
+        position: relative;
+    }
     .nav {
         background-color: teal;
-        border-bottom-right-radius: 50%;
         font-size: 1.5em;
+        border-bottom: none;
     }
     .header_logo {
         margin-block-start: 0.9rem;

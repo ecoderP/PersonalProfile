@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To My Page</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
@@ -49,7 +50,7 @@
             <div class="hero-left-box top-box width_100">
                 <h1>Hi, <br>
                     I'm Paul Onyebuchi, <br>
-                    <span class="job-role">Frontend Developer | Digital Marketer</span> <br>
+                    <span class="job-role">Frontend Developer</span> <br>
                 </h1>
                 <p class="job-skills">css | javascript | html & email</p>
                 <a href="#contact-form" class="btn">Contact Me</a>
@@ -64,12 +65,13 @@
             <h2 class="page-heading">About Me</h2>
             <div class="about-section-boxes width_100 flex">
                 <div class="right-box width_100">
-                    <img class="height_250" src="img/bkg.png" alt="Paul Onyebuchi">
+                    <img class="height_250" src="img/Paul_onyebuchi-web_developer.jpg" alt="Paul Onyebuchi">
                 </div>
                 <div class="left-box width_100">
-                    <p>Webmaster @  <a href="https://techhub-ops.com">Tech Hub Operations Ltd</a></p>
-                    <p>Webmaster/ ICT Instructor @ Kismet Pillars School</p>
-                    <p>Former Co-founder @ Max Projects Brand & Visual Communications</p>           
+                    <p>I'm a Frontend Developer looking for exciting new opportunities and new challenges. I value simple content structure. I like to code things from scratch and enjoy bringing ideas 
+                        to live on the browser. When coding, I focus on writing accessible HTML and clean Javascript, using modern CSS practices. Also, I find I'm able to communicate complex ideas to non-tecnical audiences.
+                    </p>
+                    <p>When I'm not coding, you'll probably catch me seeing a new movie or in class, teaching ICT fundamentals to a bunch of college students.</p>           
                 </div>
                 
             </div>
@@ -78,94 +80,79 @@
         <!-- Skills -->
         <div class="section width_100" id="skills">
             <h2 class="page-heading">Skills</h2>
+            <p><span>Experience Working With:</p>
             <div class="skills-section-boxes width_100 flex">
-                <div class="right-box width_100">
-                    <p><span>Experience Working With:</span> HTML, CSS3, Javascript, Bootstrap, WordPress
-                    </p>
-                    <p><span>Exposed To:</span> Google Analytics, SEO Principles, Responsive Design & Mobile First Approach</p>
-                    <p><span>Design Tools:</span> Figma, Adobe Photoshop</p>
-                    <p><span>Familiar With:</span> React JS, SASS</p>
+                <div>
+                    <img src="img/html.png" alt="">
+                </div>
                     
+                <div>
+                    <img src="img/js.png" alt="">
                 </div>
-                <div class="left-box width_100">
-                   <img class="height_250" src="img/bkg.png" alt="Paul Onyebuchi">
+                <div>
+                    <img src="img/sass.png" alt="">
                 </div>
+                <div>
+                    <img src="img/bootstrap.png" alt="">
+                </div>
+                <div>
+                    <img src="img/figma.png" alt="">
+                </div>
+                <div>
+                    <img src="img/photoshop.png" alt="">
+                </div>
+                <div>
+                    <img src="img/wordpress.png" alt="">
+                </div>
+                <div>
+                    <img src="img/google analytics.png" alt="">
+                </div>
+                    
             </div>
         </div>
 
         <!-- Portfolio -->
         <div class="section width_100" id="portfolio">
             <h2 class="page-heading">Portfolio</h2>
-            <p>Click on a tab to see the projects under it.</p>
-                <button id="landing_pages" class="landing-pages desktop width_100"> Landing Pages</button>
-                    <div id="toggle_landing_pages" class="show_portfolio width_100">
-                        <div class="project_image_box">
-                           <a href="https://cocky-nobel-0e5ecd.netlify.app/" target="_blank">
-                               <img src="img/Paul_personal_profile.png" alt="">
-                                <p class="title">Profile Page</p>
+            
+                <div class="projects-box width_100 flex">
+                    <div>
+                        <img src="img/phonebook.jpg" class="width_100" alt="Product Landing Page Project">
+                        <h5>Filterable Phonebook</h5>
+                        <p>This filterable phonebook allows users to add new contacts, it outputs the total number of contacts on the list
+                            and sorts the contacts alpahabetically.
+                        </p>
+                        <p class="tech-used">--HTML--<br/>--CSS--<br/>--Javascript--</p>
+                        <div class="project-links flex">
+                            <a href="https://filterable-phonebook.netlify.app/" target="_blank">
+                                <i class='bx bx-globe'></i> Live Page
+                            </a>
+                            <a href="https://github.com/ecoderP/Filterable-Phonebook" target="_blank">
+                                <i class='bx bxl-github'></i> Github
                             </a>
                         </div>
-                        <div class="project_image_box">
-                            <a href="#">
-                                <img src="img/stats_preview.png" alt="">
-                                <p class="title">Stats Preview card</p>
+                    </div>
+                    
+                    <div>
+                        <img src="img/product_page.jpg" class="width_100" alt="Product Landing Page Project">
+                        <h5>Product Landing Page</h5>
+                        <p>A product landing page for trombones, developed according to a user story provided by freeCodeCamp as part of assessment
+                            projects for certification in Responsive Web design.
+                        </p>
+                        <p class="tech-used">--HTML-- <br/>--CSS--</p>
+                        <div class="project-links flex">
+                            <a href="https://tombotrone-landing-page.netlify.app/" target="_blank">
+                                <i class='bx bx-globe'></i> Live Page
+                            </a>
+                            <a href="https://github.com/ecoderP/Product-Landing-Page" target="_blank">
+                                <i class='bx bxl-github'></i> Github
                             </a>
                         </div>
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
                     </div>
-
-                    <button id="j_scripts" class="react-projects desktop width_100"> Javascript </button>                
-                    <div id="toggle_j_scripts" class="show_portfolio width_100">
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                    </div>
-
-                <button id="react" class="react-projects desktop width_100"> React </button>           
-                    <div id="toggle_react" class="show_portfolio width_100">
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                        <div class="project_image_box">
-                            <img src="img/logo.png" alt="">
-                        </div>
-                    </div>
+                    <div></div>
+                </div>
                 
-                <button id="html_email" class="html_email_projects desktop width_100"> HTML Email</button>            
-                <div id="toggle_html_email" class="show_portfolio width_100">
-                    <div class="project_image_box">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                    <div class="project_image_box">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                    <div class="project_image_box">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                    <div class="project_image_box">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                </div>    
+                
             </div>
 
 
@@ -193,6 +180,8 @@
     </main>
 
     <footer>
+        <a href="https://github.com/ecoderP" target='_blank'><i class='bx bxl-github'></i></a>
+        <a href="https://linked.com/in/paulonyebuchi" target='_blank'><i class='bx bxl-linkedin-square'></i></a>
         <p class="footer-text" id="new">copyright &copy; 2021. All rights reserved.</p>
     </footer>
 
